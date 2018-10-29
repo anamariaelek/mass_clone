@@ -13,13 +13,17 @@ If you would like to setup an ssh key: https://help.github.com/articles/generati
 
 If you are running windows, here is a stack post that may help with ssh: https://stackoverflow.com/questions/18404272/running-ssh-agent-when-starting-git-bash-on-windows
 
+# commit_all.sh
+
+Adds all files and commits with the provided message. If no message is provided, default commit message "Graded %date %time" is used.
+
+The only required argument is the unique identifier (folder containing repos), commit message is the optional second argument.
+
 # push_all.sh
 
-Adds all files, commits, then pushes all changes.
+Pushes all commited changes to remote origin. The required argument is the unique identifier (folder containing repos). Optionally, a different origin can be provided as the second argument.
 
-Takes 1 argument, the unique identifier(folder containing repos)
-
-Used the commit message "Graded", but can be changed.
+Takes 1 argument, the unique identifier (folder containing repos)
 
 # clone_all_helper.sh
 
