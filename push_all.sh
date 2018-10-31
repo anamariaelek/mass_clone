@@ -7,7 +7,7 @@
 if [[ $# -ne 2 ]] && [[ $# -ne 1 ]] ;
 	then
 	echo "This script requires following parameters."
-	echo "1. The folder name the assignments are in."
+	echo "1. The name of the folder that the assignments are in."
 	echo "2. Optionally, the remote name to push to - if omitted, the default is origin"
 else
 	assignment=$1
